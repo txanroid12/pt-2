@@ -1,0 +1,27 @@
+# Tính diện tích HCN
+import math
+
+cd = int(input("Nhap chieu dai: ")) 
+print(str(cd) + "m")
+
+print("-----")
+
+cr = int(input("Nhap chieu rong: " ))
+print(str(cr) + "m")
+
+print("-----")
+
+dt = int(cd) * int(cr)
+
+print("Dien tich la: " + str(int(dt)) + " m2") 
+
+print("-----")
+
+cv = (int(cd) + int(cr))*2
+print("Chu vi hinh chu nhat la: " + str(int(cv)) + "m")
+
+print("-----")
+
+dc = int(cd**2) + int(cr**2)
+
+print("Duong cheo hinh chu nhat la: " + str(int(cd)) + "m")
