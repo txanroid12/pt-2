@@ -1,5 +1,5 @@
 # Tính diện tích HCN
-import math
+from math import sqrt
 
 cd = int(input("Nhap chieu dai: ")) 
 print(str(cd) + "m")
@@ -24,4 +24,4 @@ print("-----")
 
 dc = int(cd**2) + int(cr**2)
 
-print("Duong cheo hinh chu nhat la: " + str(int(cd)) + "m")
+print("Duong cheo hinh chu nhat la: " + str(float(sqrt(cd))) + "m")
